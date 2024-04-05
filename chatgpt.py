@@ -1,7 +1,7 @@
 import openai
 
 # Set your OpenAI API key here
-api_key = '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'
+api_key = ''
 openai.api_key = api_key
 
 def send_message(prompt):
