@@ -40,4 +40,4 @@ if __name__ == "__main__":
     if os.path.exists(folder_path) and os.path.isdir(folder_path):
         merge_pdfs_with_bookmarks(folder_path)
     else:
-        print("Invalid folder path. Please provide a valid folder path.")
+        print("Invalid folder path. Please provide a valid folder path. Exiting...")
